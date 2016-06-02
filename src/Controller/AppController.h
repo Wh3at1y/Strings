@@ -11,6 +11,10 @@
 class AppController {
 public:
 	void start();
+
+private:
+	int * intArray;
+	double * doubleArray;
 };
 
 #endif /* CONTROLLER_APPCONTROLLER_H_ */
